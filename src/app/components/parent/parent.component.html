@@ -1,0 +1,6 @@
+<app-child
+  [parentInput]="parentMessage"
+  (childOutput)="parentFunction($event)"
+></app-child>
+
+<h1>Child Message: {{ message }}</h1>
